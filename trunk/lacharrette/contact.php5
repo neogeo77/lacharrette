@@ -18,10 +18,11 @@ L'équité entre les membres est assurée par le calcul d'un ratio "nombre de fois 
 Le lien à retenir est http://www.la-charrette.fr.<br>
 Si vous souhaitez gérer votre co-voiturage avec ce site, n'hésitez pas à me contacter :
 <br><br>
-<center><img src="img/contactSeul.gif"></center>
-<br><br>
-Le code source sera bientôt disponible sur <a target="_blank" href="http://sourceforge.net/">SourceForge.net</a>.<br>
-En attendant, vous pouvez le télécharger avec ce <a href="source/charrette.zip">lien</a>.
+<img src="img/contactSeul.gif">
+<br><br><br>
+"La Charrette" est un projet Open Source sous license <a target="_blank" href="http://www.april.org/files/groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html?q=groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html">"GNU General Public License v3"</a> (euh bon enfin même moi j'ai pas tout lu hein)<br>
+Le code source est disponible sur <a target="_blank" href="http://code.google.com/p/lacharrette/">Google Code</a> sous le nom de projet "lacharrette".<br>
+Plus simplement, vous pouvez aussi télécharger ce code source en cliquant <a href="source/charrette.zip">sur ce lien</a>.
 </b>
 </td>
 </tr>
