@@ -20,4 +20,4 @@ Installation
 ******************************
 Lancement
 ******************************
-Rendez-vous dans votre répertoire lacharrette avec votre navigateur web favori.
+Rendez-vous dans le répertoire lacharrette avec votre navigateur web favori.
