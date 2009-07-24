@@ -1,3 +1,0 @@
-SetEnv SESSION_USE_TRANS_SID 0
-ErrorDocument 404 /charrette/404.html
-Options -Indexes
