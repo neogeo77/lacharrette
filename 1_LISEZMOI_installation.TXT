@@ -6,18 +6,26 @@ PHP4, MySQL, Javascript
 
 
 ******************************
+Pré-requis
+******************************
+Avoir un serveur PHP et un SGBD (=une base de données), de préférence MySQL (vu que, pour l'instant, La Charrette n'a pas été testé avec d'autre SGBD)
+Conseil: EasyPHP regroupe TRES efficacement ces 2 pré-requis, et est gratuit (+ beaucoup d'autres qualités)
+
+
+******************************
 Installation
 ******************************
-- créez une base dans votre SGBD (MySQL de préférence hein) (proposition de nom pour la base : "charretteDB")
+- créez une base de donnée dans votre SGBD. Proposition de nom pour cette base : "charretteDB".
 
 - utilisez le script sql/charretteDB.sql pour créer les tables dans cette base de donnée. Remarque : ces tables sont alimentées avec quelques données servant d'exemple.
 
 - déposer le répertoire "lacharrette" dans le répertoire "www" de votre serveur PHP.
 
-- modifier le début du fichier "lacharrette/inc_connexion.php5" en indicant les informations de connexion à la base de données (host, login, password, nom de la base)
+- modifier le début du fichier "inc_connexion.php5" en indiquant les informations de connexion à la base de données : host, login, password, nom de la base.
 
 
 ******************************
 Lancement
 ******************************
 Rendez-vous dans le répertoire lacharrette avec votre navigateur web favori.
+Les mots de passe de tous les utilisateurs de cette base "exemple" est : "password" (visibles dans la table "personne")
