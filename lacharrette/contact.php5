@@ -12,7 +12,7 @@
 <tr>
 <td align=left>
 <b>
-Site réalisé et maintenu par Yann D.<br><br>
+"La Charrette" est réalisé et maintenu par Yann D.<br><br>
 Ce site permet de gérer du co-voiturage quotidien.<br>
 L'équité entre les membres est assurée par le calcul d'un ratio "nombre de fois conducteur / nombre de fois passagers".<br>
 Le lien à retenir est http://www.la-charrette.fr.<br>
@@ -20,9 +20,8 @@ Si vous souhaitez gérer votre co-voiturage avec ce site, n'hésitez pas à me cont
 <br><br>
 <img src="img/contactSeul.gif">
 <br><br><br>
-"La Charrette" est un projet Open Source sous license <a target="_blank" href="http://www.april.org/files/groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html?q=groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html">"GNU General Public License v3"</a> (euh bon enfin même moi j'ai pas tout lu hein)<br>
-Le code source est disponible sur <a target="_blank" href="http://code.google.com/p/lacharrette/">Google Code</a> sous le nom de projet "lacharrette".<br>
-Plus simplement, vous pouvez aussi télécharger ce code source en cliquant <a href="source/charrette.zip">sur ce lien</a>.
+"La Charrette" est un projet Open Source sous licence <a target="_blank" href="http://www.april.org/files/groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html?q=groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html">"GNU General Public License v3"</a> (euh enfin bon même moi j'ai pas tout lu hein)<br>
+Le code source est disponible sur <a target="_blank" href="http://code.google.com/p/lacharrette/">Google Code</a>.<br>
 </b>
 </td>
 </tr>
