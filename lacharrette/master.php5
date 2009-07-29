@@ -83,7 +83,8 @@ function messageParDefaut()
 
 function clickTrigramme(aTD)
 {
-	trigramme=aTD.firstChild.data;	// le firstChild est le texte contenu dans la cellule TD
+	//trigramme=aTD["trigramme"];
+	trigramme=aTD.getAttribute("trigramme");
 	window.location="absenceMaster.php5?trigramme="+trigramme;
 }
 
@@ -160,6 +161,7 @@ echo "</tr>";
 foreach ($personnes as $personne)
 {
 	$trigramme=$personne->trigramme;
+	$prenomDistinct=$personne->prenomDistinct();
 	$nbrePlaces=$personne->nbrePlaces;
 	$nbreP=$calendrier->nbrePPourDate($trigramme, $datePourTri);
 	$nbreC=$calendrier->nbreCPourDate($trigramme, $datePourTri);
@@ -168,7 +170,7 @@ foreach ($personnes as $personne)
 	if ($ratio==0) $ratio="0.0";
 	$ratio=substr($ratio."00000", 0, 7);
 	echo "<tr>";
-	echo "<td onmouseover=\"mouseoverTD(this);\" onmouseout=\"mouseoutTD(this);\" style=\"cursor:pointer;\" onclick=\"clickTrigramme(this);\" class=\"gaucheTable\">$trigramme</td>";
+	echo "<td trigramme=\"$trigramme\" onmouseover=\"mouseoverTD(this);\" onmouseout=\"mouseoutTD(this);\" style=\"cursor:pointer;\" onclick=\"clickTrigramme(this);\" class=\"gaucheTable\">$prenomDistinct</td>";
 	echo "<td class=\"gaucheTable\">$nbrePlaces</td>";
 	for ($jour=$joursDebut;$jour<$joursFin;$jour++)
 	{
@@ -288,7 +290,7 @@ if (isset($trajetLie))
 <b>Instructions / documentation</b><br>
 - Cliquer sur les cases à modifier, puis enregistrer.<br>
 - Seuls les 'P' et 'C' peuvent être modifiés directement ici.<br>
-- Les 'A', 'O', 'V', et 'I' peuvent être modifiés en cliquant sur le trigramme.<br>
+- Les 'A', 'O', 'V', et 'I' peuvent être modifiés en cliquant sur le prénom.<br>
 - La date <span style="color:#DD0000;">en rouge</span> est la date à laquelle le tri par ratio est effectué.<br>
 - Pour changer le tri, cliquer sur la date souhaitée. Cela influe aussi sur la date du message.<br>
 - Les personnes en "I" (voiture interdite) sont placées en bas de tableau par convention (pour faciliter le travail du CM)<br>

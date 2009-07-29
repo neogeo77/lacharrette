@@ -40,6 +40,11 @@
 			return ucfirst(strtolower($this->prenom));
 		}
 		
+		function prenomDistinct()
+		{
+			return ucfirst(strtolower($this->prenom));
+		}
+		
 		function PrenomNOM()
 		{
 			return ucfirst(strtolower($this->prenom)). " ".strtoupper($this->nom);

@@ -4,6 +4,7 @@
 	// En tête et menu
 	require "inc_head_et_menu.php5";
 ?>
+<!--[if gte IE 5.5000]> <script type=text/javascript src="pngfix.js"></script><![endif]-->
 <br><br><h1>CONTACT / ABOUT</h1>
 
 <br><br><br><br><br><br><br><br>
@@ -21,11 +22,14 @@ Si vous souhaitez gérer votre co-voiturage avec ce site, n'hésitez pas à me cont
 <img src="img/contactSeul.gif">
 <br><br><br>
 "La Charrette" est un projet Open Source sous licence <a target="_blank" href="http://www.april.org/files/groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html?q=groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html">"GNU General Public License v3"</a> (euh enfin bon même moi j'ai pas tout lu hein)<br>
-Le code source est disponible sur <a target="_blank" href="http://code.google.com/p/lacharrette/">Google Code</a>.<br>
+Il est géré par <a target="_blank" href="http://code.google.com/p/lacharrette/">Google Code</a>, site de gestion de logiciels libres, sur lequel vous trouverez, entre autre, le code source.<br>
 </b>
 </td>
 </tr>
 </table>
+<br><br><br>
+<a target="_blank" href="http://www.april.org/files/groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html?q=groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html"><img align=center src="img/gnu.png"></a><br>
+<b><i style="font-size:10px;"><br>Logo du projet GNU</i></b>
 </center>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
