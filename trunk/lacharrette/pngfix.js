@@ -2,13 +2,13 @@
 // http://homepage.ntlworld.com/bobosola. Updated 02-March-2004
 // Remarque : c'est uniquement pour l'image générée par Google Chart !
 
-function correctPNG() 
+function correctPNG()
 {
 	for(var i=0; i<document.images.length; i++)
 	{
 		var img = document.images[i]
 		var imgName = img.src.toUpperCase()
-		if (imgName.substring(0, 24) == "HTTP://CHART.APIS.GOOGLE")	
+		if ((imgName.substring(0, 24) == "HTTP://CHART.APIS.GOOGLE") || (imgName.substring(imgName.length-3, imgName.length)=="PNG"))
 		{
 			var imgID = (img.id) ? "id='" + img.id + "' " : ""
 			var imgClass = (img.className) ? "class='" + img.className + "' " : ""

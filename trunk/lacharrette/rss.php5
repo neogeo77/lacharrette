@@ -60,7 +60,7 @@
 		{
 			if (sizeof($conducteurs)>1) $xml.="<b>Conducteurs :</b> "; else $xml.="<b>Conducteur :</b> ";
 			$sep="";
-			foreach ($conducteurs as $pers) {$xml.=$sep.$pers->trigramme;$sep=", ";}
+			foreach ($conducteurs as $pers) {$xml.=$sep.$pers->prenomDistinct();$sep=", ";}
 			$xml.="<br>";
 		}
 
@@ -69,7 +69,7 @@
 		{
 			if (sizeof($passagers)>1) $xml.="<b>Passagers :</b> "; else $xml.="<b>Passager :</b> ";
 			$sep="";
-			foreach ($passagers as $pers) {$xml.=$sep.$pers->trigramme;$sep=", ";}
+			foreach ($passagers as $pers) {$xml.=$sep.$pers->prenomDistinct();$sep=", ";}
 			$xml.="<br>";
 		}
 
@@ -78,7 +78,7 @@
 		{
 			if (sizeof($absents)>1) $xml.="<b>Absents :</b> "; else $xml.="<b>Absent :</b> ";
 			$sep="";
-			foreach ($absents as $pers) {$xml.=$sep.$pers->trigramme;$sep=", ";}
+			foreach ($absents as $pers) {$xml.=$sep.$pers->prenomDistinct();$sep=", ";}
 			$xml.="<br>";
 		}
 
@@ -90,7 +90,7 @@
 			{
 				if (sizeof($conducteurs)>1) $xml.="<b>Conducteurs :</b> "; else $xml.="<b>Conducteur :</b> ";
 				$sep="";
-				foreach ($conducteurs as $pers) {$xml.=$sep.$pers->trigramme;$sep=", ";}
+				foreach ($conducteurs as $pers) {$xml.=$sep.$pers->prenomDistinct();$sep=", ";}
 				$xml.="<br>";
 			}
 
@@ -99,7 +99,7 @@
 			{
 				if (sizeof($passagers)>1) $xml.="<b>Passagers :</b> "; else $xml.="<b>Passager :</b> ";
 				$sep="";
-				foreach ($passagers as $pers) {$xml.=$sep.$pers->trigramme;$sep=", ";}
+				foreach ($passagers as $pers) {$xml.=$sep.$pers->prenomDistinct();$sep=", ";}
 				$xml.="<br>";
 			}
 
@@ -108,7 +108,7 @@
 			{
 				if (sizeof($absents)>1) $xml.="<b>Absents :</b> "; else $xml.="<b>Absent :</b> ";
 				$sep="";
-				foreach ($absents as $pers) {$xml.=$sep.$pers->trigramme;$sep=", ";}
+				foreach ($absents as $pers) {$xml.=$sep.$pers->prenomDistinct();$sep=", ";}
 				$xml.="<br>";
 			}
 		}

@@ -26,7 +26,7 @@ X-WR-CALNAME:La Charrette
 		echo "X-GOOGLE-CALENDAR-CONTENT-ICON:http://www.blueplace.fr/charrette/img/iconGoogleCalender.gif\n";
 		echo "X-GOOGLE-CALENDAR-CONTENT-URL:http://www.blueplace.fr/charrette/tel.php5?CODETRAJET=$trajet\n";
 		echo "X-GOOGLE-CALENDAR-CONTENT-TYPE:text/html\n";
-		echo "X-GOOGLE-CALENDAR-CONTENT-WIDTH:300\n";
+		echo "X-GOOGLE-CALENDAR-CONTENT-WIDTH:360\n";
 		echo "X-GOOGLE-CALENDAR-CONTENT-HEIGHT:350\n";
 		echo "END:VEVENT\n";
 	}

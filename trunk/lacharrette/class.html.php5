@@ -42,6 +42,7 @@
 			foreach ($personnes as $personne)
 			{
 				$trigramme=$personne->trigramme;
+				$prenomDistinct=$personne->prenomDistinct();
 				$PrenomNom=$personne->PrenomNom();
 				$nbrePlaces=$personne->nbrePlaces;
 				$nbreP=$calendrier->nbrePPourDate($trigramme, $aujourdhui);
@@ -51,7 +52,7 @@
 				if ($ratio==0) $ratio="0.0";
 				$ratio=substr($ratio."00000", 0, 7);
 				echo "<tr>";
-				echo "<td title=\"$PrenomNom\" class=\"gaucheTable\">$trigramme</td>";
+				echo "<td title=\"$PrenomNom\" class=\"gaucheTable\">$prenomDistinct</td>";
 				if (!$boolVersionTel && !$boolMaster)
 				{
 					echo "<td class=\"gaucheTable\">$nbreC</td>";
